@@ -1,0 +1,20 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=3698
+
+Inserts CSS rules from a stylesheet into a HTML page to create HTML email. Requires cURL and  a PHP-supported webserver.
+
+Homepage: http://designtomarkup.com/vim/work-with-external-css-tools#html_emogrifier.vim
+
+Git repository: https://github.com/kien/html_emogrifier.vim
+
+====================
+Usage/Configuration:
+====================
+1. Copy the emogrifier/ directory to your localhost's or your website's public directory.
+
+2. Define g:emogrifier_interface in your .vimrc with the location of the run.php script.
+Example:
+let g:emogrifier_interface = 'http://localhost/emogrifier/run.php'
+
+3. Run :Emogrify on any HTML file with linked CSS to get an email-friendly version.
+
+4. The email-friendly version will be saved into the same directory as the original HTML file.
