@@ -1,3 +1,5 @@
+[Homepage][6]
+
 Requires Vim 7.3+, a PHP-supported web server and [cURL][1].
 
 For Windows users without cURL, download the binaries from curl.haxx.se and put it in your system's PATH or in the same directory as gvim.exe.
@@ -19,10 +21,13 @@ For Windows users without cURL, download the binaries from curl.haxx.se and put 
 * __[prefixer.vim][2]__ » Add vendor prefixes to CSS3 properties.
 * __html_emogrifier.vim__ » Convert HTML page with linked CSS to HTML email with inline CSS.
 * __[cssbaseline.vim][3]__ » Build a CSS baseline (empty CSS blocks) from HTML code.
+* __[premailer.vim][4]__ » Vim wrapper for the Ruby script Premailer.
 
-[Get latest PHP Emogrifier class][4].
+[Get latest PHP Emogrifier class][5].
 
 [1]: http://curl.haxx.se/download.html#Win32
 [2]: https://github.com/kien/prefixer.vim
 [3]: https://github.com/kien/cssbaseline.vim
-[4]: http://www.pelagodesign.com/sidecar/emogrifier/
+[4]: https://github.com/kien/premailer.vim
+[5]: http://www.pelagodesign.com/sidecar/emogrifier/
+[6]: http://designtomarkup.com/vim/work-with-external-css-tools#html_emogrifier.vim
